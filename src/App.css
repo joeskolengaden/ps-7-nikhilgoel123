@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -29,4 +29,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  padding:20px;
+  margin: 20px;
+  color: black;
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+div {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding:20px;
+  margin-top: 20;
+}
+img {
+  max-height: 500px;
+  max-width: 500px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
